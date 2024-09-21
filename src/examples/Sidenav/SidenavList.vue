@@ -28,7 +28,19 @@ const getRoute = () => {
           :navText="'Analytic Dashboard'"
         >
           <template v-slot:icon>
-            <i class="ni ni-tv-2 text-primary text-sm opacity-10"></i>
+            <i class="fa fa-area-chart text-primary text-sm opacity-10"></i>
+          </template>
+        </sidenav-item>
+      </li>
+
+      <li class="nav-item">
+        <sidenav-item
+          to="/billing"
+          :class="getRoute() === 'billing' ? 'active' : ''"
+          :navText="'Question List'"
+        >
+          <template v-slot:icon>
+            <i class="fa fa-list text-warning text-sm opacity-10"></i>
           </template>
         </sidenav-item>
       </li>
@@ -43,18 +55,6 @@ const getRoute = () => {
             <i
               class="ni ni-chat-round text-success text-sm opacity-10"
             ></i>
-          </template>
-        </sidenav-item>
-      </li>
-
-      <li class="nav-item">
-        <sidenav-item
-          to="/billing"
-          :class="getRoute() === 'billing' ? 'active' : ''"
-          :navText="'Question List'"
-        >
-          <template v-slot:icon>
-            <i class="ni ni-credit-card text-warning text-sm opacity-10"></i>
           </template>
         </sidenav-item>
       </li>

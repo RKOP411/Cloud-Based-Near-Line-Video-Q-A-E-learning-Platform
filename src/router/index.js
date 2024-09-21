@@ -21,12 +21,12 @@ const routes = [
   },
   {
     path: "/tables",
-    name: "Tables",
+    name: "Chat Room",
     component: Tables,
   },
   {
     path: "/billing",
-    name: "Billing",
+    name: "Question List",
     component: Billing,
   },
   {

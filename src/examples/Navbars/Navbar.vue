@@ -13,10 +13,10 @@ const route = useRoute();
 const currentRouteName = computed(() => {
   return route.name;
 });
-const currentDirectory = computed(() => {
-  let dir = route.path.split("/")[1];
-  return dir.charAt(0).toUpperCase() + dir.slice(1);
-});
+// const currentDirectory = computed(() => {
+//   let dir = route.path.split("/")[1];
+//   return dir.charAt(0).toUpperCase() + dir.slice(1);
+// });
 
 const minimizeSidebar = () => store.commit("sidebarMinimize");
 const toggleConfigurator = () => store.commit("toggleConfigurator");
@@ -38,7 +38,7 @@ const closeMenu = () => {
     <div class="px-3 py-1 container-fluid">
       <breadcrumbs
         :current-page="currentRouteName"
-        :current-directory="currentDirectory"
+        :current-directory="currentRouteName"
       />
 
       <div
@@ -50,16 +50,7 @@ const closeMenu = () => {
           class="pe-md-3 d-flex align-items-center"
           :class="isRTL ? 'me-md-auto' : 'ms-md-auto'"
         >
-          <div class="input-group">
-            <span class="input-group-text text-body">
-              <i class="fas fa-search" aria-hidden="true"></i>
-            </span>
-            <input
-              type="text"
-              class="form-control"
-              :placeholder="'Type here...'"
-            />
-          </div>
+
         </div>
         <ul class="navbar-nav justify-content-end">
           <li class="nav-item d-flex align-items-center">
