@@ -1,7 +1,7 @@
 <script setup>
 import MiniStatisticsCard from "@/examples/Cards/MiniStatisticsCard.vue";
 import GradientLineChart from "@/examples/Charts/GradientLineChart.vue";
-import CategoriesList from "./components/CategoriesList.vue";
+import CategoriesList from "../components/CategoriesList.vue";
 
 import US from "@/assets/img/icons/flags/US.png";
 import DE from "@/assets/img/icons/flags/DE.png";
@@ -124,7 +124,7 @@ const sales = {
                           <i class="fa fa-user-circle" aria-hidden="true"></i>
                           <div class="ms-4">
                             <p class="mb-0 text-xs font-weight-bold">
-                              User:
+                              Student:
                             </p>
                             <h6 class="mb-0 text-sm">{{ sale.country }}</h6>
                           </div>

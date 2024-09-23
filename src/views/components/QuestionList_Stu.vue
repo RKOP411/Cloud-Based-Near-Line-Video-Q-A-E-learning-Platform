@@ -18,7 +18,7 @@
         <!-- List Card -->
         <li class="list-group-item border-0 d-flex p-4 mb-2 bg-gray-100 border-radius-lg">
           <div class="d-flex flex-column">
-            <h6 class="mb-3 text-sm">Oliver Liam</h6>
+            <h6 class="mb-3 text-sm">You</h6>
             <span class="mb-2 text-xs">
               Type:
               <span class="text-dark font-weight-bold ms-sm-2">Theory</span>
@@ -30,11 +30,8 @@
             </span>
           </div>
           <div class="ms-auto text-end d-flex">
-            <a class="btn btn-link text-danger text-gradient px-3 mb-0" href="javascript:;">
-              <i class="far fa-trash-alt me-2" aria-hidden="true"></i>
-            </a>
             <a class="btn btn-link text-dark px-3 mb-0" href="javascript:;">
-              <i class="fas fa-pencil-alt text-dark me-2" aria-hidden="true"></i>
+              <i class="fa fa-eye text-dark me-2" aria-hidden="true"></i>
             </a>
           </div>
         </li>
@@ -54,12 +51,9 @@
             </span>
           </div>
           <div class="ms-auto text-end d-flex">
-            <a class="btn btn-link text-danger text-gradient px-3 mb-0" href="javascript:;">
-              <i class="far fa-trash-alt me-2" aria-hidden="true"></i>
-            </a>
             <br/>
             <a class="btn btn-link text-dark px-3 mb-0" href="javascript:;">
-              <i class="fas fa-pencil-alt text-dark me-2" aria-hidden="true"></i>
+              <i class="fa fa-eye text-dark me-2" aria-hidden="true"></i>
             </a>
           </div>
         </li>
@@ -77,11 +71,9 @@
             </span>
           </div>
           <div class="ms-auto text-end d-flex">
-            <a class="btn btn-link text-danger text-gradient px-3 mb-0" href="javascript:;">
-              <i class="far fa-trash-alt me-2" aria-hidden="true"></i>
-            </a>
+
             <a class="btn btn-link text-dark px-3 mb-0" href="javascript:;">
-              <i class="fas fa-pencil-alt text-dark me-2" aria-hidden="true"></i>
+              <i class="fa fa-eye text-dark me-2" aria-hidden="true"></i>
             </a>
           </div>
         </li>

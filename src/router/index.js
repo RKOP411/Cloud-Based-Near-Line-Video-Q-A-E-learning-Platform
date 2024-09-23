@@ -1,12 +1,16 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Dashboard from "../views/Dashboard.vue";
+import Dashboard from "../views/Teacher/Dashboard.vue";
 import Tables from "../views/Tables.vue";
-import Billing from "../views/Billing.vue";
+import Billing from "../views/Teacher/Billing.vue";
 import VirtualReality from "../views/VirtualReality.vue";
 import RTL from "../views/Rtl.vue";
 import Profile from "../views/Profile.vue";
 import Signup from "../views/Signup.vue";
 import Signin from "../views/Signin.vue";
+import Question_List_Stu from "../views/Student/Question_List_Stu.vue";
+import ForgetPassword from "../views/ForgetPassword.vue";
+import UserList from "../views/Admin/UserList.vue";
+import MediaList from "../views/Admin/MediaList.vue";
 
 const routes = [
   {
@@ -54,6 +58,27 @@ const routes = [
     name: "Signup",
     component: Signup,
   },
+  {
+    path: "/question-list",
+    name: "Question List",
+    component: Question_List_Stu,
+  }
+  ,
+  {
+    path: "/forgetpassword",
+    name: "Forget Password",
+    component: ForgetPassword,
+  },
+  {
+    path: "/userList",
+    name: "UserList",
+    component: UserList,
+  },
+  {
+    path: "/mediaList",
+    name: "MediaList",
+    component: MediaList,
+  }
 ];
 
 const router = createRouter({

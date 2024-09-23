@@ -1,11 +1,11 @@
 <script setup>
-import BillingCard from "./components/BillingCard.vue";
+import showList from "../components/ShowUserList.vue";
 </script>
 <template>
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12">
-        <billing-card />
+     <showList/>
       </div>
     </div>
   </div>

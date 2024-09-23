@@ -3,7 +3,6 @@ import { onBeforeUnmount, onBeforeMount } from "vue";
 import { useStore } from "vuex";
 
 import ArgonInput from "@/components/ArgonInput.vue";
-import ArgonSwitch from "@/components/ArgonSwitch.vue";
 import ArgonButton from "@/components/ArgonButton.vue";
 const body = document.getElementsByTagName("body")[0];
 
@@ -34,8 +33,7 @@ onBeforeUnmount(() => {
             >
               <div class="card card-plain">
                 <div class="pb-0 card-header text-start">
-                  <h4 class="font-weight-bolder">Sign In</h4>
-                  <p class="mb-0">Enter your email and password to sign in</p>
+                  <h4 class="font-weight-bolder">Forgot Password</h4>
                 </div>
                 <div class="card-body">
                   <form role="form">
@@ -48,22 +46,7 @@ onBeforeUnmount(() => {
                         size="lg"
                       />
                     </div>
-                    <div class="mb-3">
-                      <argon-input
-                        id="password"
-                        type="password"
-                        placeholder="Password"
-                        name="password"
-                        size="lg"
-                      />
-                    </div>
-                    <argon-switch class="mb-3" id="rememberMe" name="remember-me"
-                      >Remember me</argon-switch
-                    >
-                    <a
-                      href="javascript:;"
-                      class="text-primary text-gradient"
-                      >Forget Password</a>
+
                     <div class="text-center">
                       <argon-button
                         class="mt-4"
@@ -71,7 +54,7 @@ onBeforeUnmount(() => {
                         color="success"
                         fullWidth
                         size="lg"
-                        >Sign in</argon-button
+                        >Reset Password</argon-button
                       >
                     </div>
                   </form>
@@ -101,11 +84,11 @@ onBeforeUnmount(() => {
                 <h4
                   class="mt-5 text-white font-weight-bolder position-relative"
                 >
-                  "The beautiful thing about learning is that no one can take it away from you."
+                  "An investment in knowledge pays the best interest."
                 </h4>
                 <br/>
                 <p class="text-white position-relative">
-                  — B.B. King
+                    — Benjamin Franklins
                 </p>
               </div>
             </div>
