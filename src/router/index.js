@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Dashboard from "../views/Teacher/Dashboard.vue";
 import Tables from "../views/Tables.vue";
-import Billing from "../views/Teacher/Billing.vue";
 import VirtualReality from "../views/VirtualReality.vue";
 import RTL from "../views/Rtl.vue";
 import Profile from "../views/Profile.vue";
@@ -11,6 +10,7 @@ import Question_List_Stu from "../views/Student/Question_List_Stu.vue";
 import ForgetPassword from "../views/ForgetPassword.vue";
 import UserList from "../views/Admin/UserList.vue";
 import MediaList from "../views/Admin/MediaList.vue";
+import Manage_Queue from "../views/Teacher/ManageQueue.vue";
 
 const routes = [
   {
@@ -27,11 +27,6 @@ const routes = [
     path: "/tables",
     name: "Chat Room",
     component: Tables,
-  },
-  {
-    path: "/billing",
-    name: "Question List",
-    component: Billing,
   },
   {
     path: "/virtual-reality",
@@ -78,6 +73,11 @@ const routes = [
     path: "/mediaList",
     name: "MediaList",
     component: MediaList,
+  },
+  {
+    path: "/manage-queue",
+    name: "Manage Queue",
+    component: Manage_Queue,
   }
 ];
 

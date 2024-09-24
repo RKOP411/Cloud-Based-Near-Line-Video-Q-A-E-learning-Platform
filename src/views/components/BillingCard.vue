@@ -28,6 +28,10 @@
               <span class="text-dark ms-sm-2 font-weight-bold">Why is the vertex cover problem classified as
                 NP-hard?</span>
             </span>
+            <span class="mb-2 text-xs">
+              Question Time:
+              <span class="text-dark font-weight-bold ms-sm-2">09-24-2024 10:13</span>
+            </span>
           </div>
           <div class="ms-auto text-end d-flex">
             <a class="btn btn-link text-danger text-gradient px-3 mb-0" href="javascript:;">
@@ -52,6 +56,10 @@
               <span class="text-dark ms-sm-2 font-weight-bold">How can the Max-Flow Min-Cut Theorem be applied to solve
                 real-world problems?</span>
             </span>
+            <span class="mb-2 text-xs">
+              Question Time:
+              <span class="text-dark font-weight-bold ms-sm-2">09-24-2024 09:44</span>
+            </span>
           </div>
           <div class="ms-auto text-end d-flex">
             <a class="btn btn-link text-danger text-gradient px-3 mb-0" href="javascript:;">
@@ -74,6 +82,10 @@
               Description:
               <span class="text-dark ms-sm-2 font-weight-bold ">When implementing a depth-first search (DFS) algorithm,
                 the graph is disconnected, and the algorithm won't visit all nodes</span>
+            </span>
+            <span class="mb-2 text-xs">
+              Question Time:
+              <span class="text-dark font-weight-bold ms-sm-2">09-24-2024 09:13</span>
             </span>
           </div>
           <div class="ms-auto text-end d-flex">
