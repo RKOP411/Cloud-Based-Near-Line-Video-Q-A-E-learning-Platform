@@ -30,7 +30,7 @@
             </span>
             <span class="mb-2 text-xs">
               Question Time:
-              <span class="text-dark font-weight-bold ms-sm-2">09-24-2024 10:13</span>
+              <span class="text-dark font-weight-bold ms-sm-2">3 min. ago</span>
             </span>
           </div>
           <div class="ms-auto text-end d-flex">
@@ -38,7 +38,7 @@
               <i class="far fa-trash-alt me-2" aria-hidden="true"></i>
             </a>
             <a class="btn btn-link text-dark px-3 mb-0" href="javascript:;">
-              <i class="fas fa-pencil-alt text-dark me-2" aria-hidden="true"></i>
+              <i class="fa fa-comment" aria-hidden="true"></i>
             </a>
           </div>
         </li>
@@ -58,7 +58,7 @@
             </span>
             <span class="mb-2 text-xs">
               Question Time:
-              <span class="text-dark font-weight-bold ms-sm-2">09-24-2024 09:44</span>
+              <span class="text-dark font-weight-bold ms-sm-2">20 min. ago</span>
             </span>
           </div>
           <div class="ms-auto text-end d-flex">
@@ -67,7 +67,7 @@
             </a>
             <br/>
             <a class="btn btn-link text-dark px-3 mb-0" href="javascript:;">
-              <i class="fas fa-pencil-alt text-dark me-2" aria-hidden="true"></i>
+              <i class="fa fa-comment" aria-hidden="true"></i>
             </a>
           </div>
         </li>
@@ -85,15 +85,16 @@
             </span>
             <span class="mb-2 text-xs">
               Question Time:
-              <span class="text-dark font-weight-bold ms-sm-2">09-24-2024 09:13</span>
+              <span class="text-dark font-weight-bold ms-sm-2">1 hr. ago</span>
             </span>
+           <a href="#"> <span class="text-primary font-weight-bold ms-sm-2">View</span> </a>
           </div>
           <div class="ms-auto text-end d-flex">
             <a class="btn btn-link text-danger text-gradient px-3 mb-0" href="javascript:;">
               <i class="far fa-trash-alt me-2" aria-hidden="true"></i>
             </a>
             <a class="btn btn-link text-dark px-3 mb-0" href="javascript:;">
-              <i class="fas fa-pencil-alt text-dark me-2" aria-hidden="true"></i>
+              <i class="fa fa-comment" aria-hidden="true"></i>
             </a>
           </div>
         </li>

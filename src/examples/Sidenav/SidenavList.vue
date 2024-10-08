@@ -35,7 +35,7 @@ const getRoute = () => {
 
       <li class="nav-item">
         <sidenav-item
-          to="/manage-queue"
+          to="/managequeue"
           :class="getRoute() === 'billing' ? 'active' : ''"
           :navText="'Question List'"
         >

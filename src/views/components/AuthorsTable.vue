@@ -1,8 +1,13 @@
 <template>
   <div class="card">
     <div class="card-header pb-0">
+      <div class="d-flex align-items-center">
       <h6>Chat Table</h6>
+      <argon-button type="button"  class="btn btn-success mb-3 ms-auto ">
+        <i class="fa fa-plus" aria-hidden="true"></i> 
+      </argon-button>
     </div>
+  </div>
     <div class="card-body px-0 pt-0 pb-2">
       <div class="table-responsive p-0">
         <table class="table align-items-center mb-0">

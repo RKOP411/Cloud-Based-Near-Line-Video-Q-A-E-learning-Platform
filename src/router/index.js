@@ -11,6 +11,9 @@ import ForgetPassword from "../views/ForgetPassword.vue";
 import UserList from "../views/Admin/UserList.vue";
 import MediaList from "../views/Admin/MediaList.vue";
 import Manage_Queue from "../views/Teacher/ManageQueue.vue";
+import CreateChat from "../views/CreateChatCroup.vue";
+import UploadQuestion from "../views/Student/Upload_Question.vue";
+import JoinChat from "../views/JoinChat.vue";
 
 const routes = [
   {
@@ -54,7 +57,7 @@ const routes = [
     component: Signup,
   },
   {
-    path: "/question-list",
+    path: "/questionlist",
     name: "Question List",
     component: Question_List_Stu,
   }
@@ -75,9 +78,24 @@ const routes = [
     component: MediaList,
   },
   {
-    path: "/manage-queue",
+    path: "/managequeue",
     name: "Manage Queue",
     component: Manage_Queue,
+  },
+  {
+    path: "/createchat",
+    name: "Create Chat",
+    component: CreateChat,
+  },
+  {
+    path: "/uploadquestion",
+    name: "Upload Question",
+    component: UploadQuestion,
+  },
+  {
+    path: "/joinchat",
+    name: "Join Chat Group",
+    component: JoinChat,
   }
 ];
 
